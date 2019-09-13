@@ -1,0 +1,15 @@
+{
+  "name": "staart.css",
+  "version": "1.0.0",
+  "main": "dist/staart.css",
+  "repository": "git@github.com:o15y/staart.css",
+  "author": "Anand Chowdhary <mail@anandchowdhary.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-sass staart.scss dist/staart.css"
+  },
+  "files": ["dist"],
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
