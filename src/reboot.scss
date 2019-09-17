@@ -169,3 +169,11 @@ fieldset {
   margin: 0;
   border: 0;
 }
+
+nav ul {
+  margin: 0;
+  list-style: none;
+}
+nav > ul {
+  padding: 0;
+}
