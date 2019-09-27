@@ -2,6 +2,9 @@
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.row {
   display: flex;
   > * {
     flex: 1 0 0;
