@@ -20,6 +20,29 @@ aside nav li {
   }
 }
 
+.label-help {
+  background-color: rgba($color-black, 0.5);
+  display: inline-block;
+  font-size: 85%;
+  color: #fff;
+  border-radius: 100%;
+  font-weight: bold;
+  width: 1rem !important;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  margin-top: -0.2rem;
+  margin-left: 0.25rem;
+  vertical-align: middle;
+  &::after {
+    font-weight: normal !important;
+    font-size: 100% !important;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 @import "./components/a.scss";
 @import "./components/code.scss";
 @import "./components/button.scss";

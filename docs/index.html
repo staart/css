@@ -19,8 +19,8 @@
                 <li><a href="#link">Anchor link</a></li>
                 <li><a href="#button">Button</a></li>
                 <li><a href="#card">Card</a></li>
-                <li><a href="#input">Input</a></li>
                 <li><a href="#table">Table</a></li>
+                <li><a href="#tooltip">Tooltip</a></li>
               </ul>
             </li>
             <li>
@@ -174,6 +174,16 @@
             </tr>
           </tbody>
         </table>
+        <h3 id="tooltip">Tooltip</h3>
+        <p>
+          Tooltips are powered by Balloon.css, so they're accessible with
+          <code>aria-label</code> and display on hover, like the question mark:
+          <span aria-label="Was this helpful?" data-balloon-pos="up" class="label-help">?</span>
+        </p>
+        <button aria-label="I am up" data-balloon-pos="up">Tooltip up</button>
+        <button aria-label="I am down" data-balloon-pos="down" class="text text--ml-1">Tooltip down</button>
+        <button aria-label="I am left" data-balloon-pos="left" class="text text--ml-1">Tooltip left</button>
+        <button aria-label="I am right" data-balloon-pos="right" class="text text--ml-1">Tooltip right</button>
         <h2 id="utilities">Utilities</h2>
         <h3 id="colors">Colors</h3>
         <div class="row" aria-hidden="true">
