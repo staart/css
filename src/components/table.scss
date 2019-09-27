@@ -1,0 +1,35 @@
+@import "../colors";
+
+table, .table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  td,
+  th {
+    vertical-align: middle;
+    padding: 0.75rem 1rem;
+    .button {
+      margin: -0.75rem 0;
+    }
+    .button + .button {
+      margin-left: 0.5rem;
+    }
+  }
+  th {
+    border-bottom: 2px solid rgba($color-black, 0.04);
+  }
+  tr:nth-child(even) {
+    background-color: rgba($color-black, 0.04);
+  }
+  &.table--type-cols {
+    td:first-child {
+      font-weight: bold;
+    }
+    td:last-child {
+      text-align: right;
+    }
+  }
+  + .pagination {
+    margin-top: 1rem;
+  }
+}
