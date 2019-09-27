@@ -5,6 +5,7 @@
   display: flex;
   > * {
     flex: 1 0 0;
+    margin: 0 1rem;
   }
   aside, .column--type-aside {
     flex: 0.3;
