@@ -11,25 +11,27 @@
       <aside>
         <nav>
           <ul>
-            <li><a href="#">Introduction</a></li>
+            <li><a href="#top">Introduction</a></li>
             <li><a href="#">Typography</a></li>
             <li>
-              <a href="#">Components</a>
+              <a href="#components">Components</a>
               <ul>
-                <li><a href="#">Button</a></li>
-                <li><a href="#">Input</a></li>
-                <li><a href="#">Table</a></li>
+                <li><a href="#link">Anchor link</a></li>
+                <li><a href="#button">Button</a></li>
+                <li><a href="#card">Card</a></li>
+                <li><a href="#input">Input</a></li>
+                <li><a href="#table">Table</a></li>
               </ul>
             </li>
-            <li><a href="#">Utilities</a></li>
+            <li><a href="#utilities">Utilities</a></li>
           </ul>
         </nav>
       </aside>
       <main>
-        <h1>Staart.css</h1>
+        <h1 id="top">Staart.css</h1>
         <p>Staart.css is a lightweight CSS framework starter. It's highly customizable and built as a starting point, not an end-to-end solution. It powers Staart UI, the frontend webapp starter for SaaS startups.</p>
         <p>One of the key features of Staart.css is that it styles elements by default, such as <code>&lt;input&gt;</code> and <code>&lt;button&gt;</code>, but you can disable by removing <code>ui.scss</code> if need be. You can customize your starter by editing <code>theme.scss</code>.</p>
-        <h2>Typography</h2>
+        <h2 id="typography">Typography</h2>
         <p>Headings are the basic <code>&lt;h1&gt;</code>&ndash;<code>&lt;h6&gt;</code> elements along with corresponding <code>.h1</code>&ndash;<code>.h6</code> classes. You should prefer to use the schematic HTML elements; classes on other elements (like <code>&lt;div&gt;</code>s) should only be used in very specific circustances, such as the following set of headings which doesn't require landmark information.</p>
         <div class="h1">Heading 1</div>
         <div class="h2">Heading 2</div>
@@ -39,8 +41,8 @@
         <div class="h6">Heading 6</div>
         <div class="hero">Hero heading</div>
         <p class="lead">This is a lead paragraph. It's typically used after the hero heading for an intro.</p>
-        <h2>Components</h2>
-        <h3>Links</h3>
+        <h2 id="components">Components</h2>
+        <h3 id="link">Link</h3>
         <p>Links are regular <code>&lt;a&gt;</code> tags.</p>
         <table>
           <tbody>
@@ -57,7 +59,7 @@
             </tr>
           </tbody>
         </table>
-        <h3>Buttons</h3>
+        <h3 id="button">Button</h3>
         <table>
           <thead>
             <tr>
@@ -137,6 +139,33 @@
               <td>
                 <button class="button button--color-warning button--state-cta">Warning button</button>
               </td>
+            </tr>
+          </tbody>
+        </table>
+        <h3 id="card">Card</h3>
+        <div class="card card--type-padded">This is a card with padding.</div>
+        <h3 id="table">Table</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>S. No.</th>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Company</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Anand Chowdhary</td>
+              <td>Chief Executive Officer</td>
+              <td>Oswald Labs</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Mahendra Raghuwanshi</td>
+              <td>Chief Operations Officer</td>
+              <td>Oswald Labs</td>
             </tr>
           </tbody>
         </table>
