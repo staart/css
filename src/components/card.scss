@@ -14,3 +14,10 @@
     box-shadow: none;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: $dark-background-color-lighter;
+  }
+}
+

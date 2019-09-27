@@ -8,3 +8,9 @@ code {
   border-radius: 0.1rem;
   box-shadow: 0 3px 6px 0 rgba(43, 7, 7, 0.035);
 }
+
+@media (prefers-color-scheme: dark) {
+  code {
+    background-color: $dark-background-color-lighter;
+  }
+}

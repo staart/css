@@ -14,3 +14,9 @@ a {
       rgba($button-background-color, 0.42) 0px 2px 5px 0px, 0 0 0 3px rgba($button-background-color, 0.25);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: $dark-link-color;
+  }
+}

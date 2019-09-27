@@ -165,3 +165,10 @@ button, .button {
     margin-left: 1rem;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  button, .button {
+    background-color: $dark-button-background-color !important;
+    color: $dark-button-text-color !important;
+  }
+}

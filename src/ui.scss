@@ -4,6 +4,17 @@
   background-color: rgba($color-primary, 0.15);
 }
 
+html {
+  color: $text-color;
+  background-color: $background-color;
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color: $dark-text-color;
+    background-color: $dark-background-color;
+  }
+}
+
 aside nav li {
   a {
     padding: 0.25rem 0;
