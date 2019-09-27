@@ -1,10 +1,7 @@
-code {
-  color: #c33;
-  background-color: #eee;
-  display: inline-block;
-  padding: 0.075rem 0.2rem;
-  border-radius: 0.2rem;
-  vertical-align: middle;
+@import "colors";
+
+::selection {
+  background-color: rgba($color-primary, 0.15);
 }
 
 aside nav li {
@@ -23,5 +20,7 @@ aside nav li {
   }
 }
 
+@import "./components/a.scss";
+@import "./components/code.scss";
 @import "./components/button.scss";
 @import "./components/table.scss";

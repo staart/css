@@ -1,0 +1,10 @@
+@import "../colors";
+
+code {
+  font-size: 110%;
+  background-color: #fff;
+  color: $color-red;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.1rem;
+  box-shadow: 0 3px 6px 0 rgba(43, 7, 7, 0.035);
+}
