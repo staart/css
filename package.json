@@ -1,12 +1,13 @@
 {
   "name": "@staart/css",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/staart.css",
   "repository": "git@github.com:o15y/staart.css",
   "author": "Anand Chowdhary <mail@anandchowdhary.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node-sass staart.scss dist/staart.css",
+    "build": "node-sass staart.scss dist/staart.css && npm run compile",
+    "compile": "node setup/compile.js",
     "increment-package": "node setup/increment.js"
   },
   "files": [
