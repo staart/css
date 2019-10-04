@@ -1,15 +1,25 @@
 {
   "name": "staart.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/staart.css",
   "repository": "git@github.com:o15y/staart.css",
   "author": "Anand Chowdhary <mail@anandchowdhary.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node-sass staart.scss dist/staart.css"
+    "build": "node-sass staart.scss dist/staart.css",
+    "increment-package": "node setup/increment.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn increment-package && git add ."
+    }
+  },
   "devDependencies": {
+    "fs-extra": "^8.1.0",
+    "husky": "^3.0.8",
     "node-sass": "^4.12.0"
   }
 }
