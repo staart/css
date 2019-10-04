@@ -1,6 +1,6 @@
 {
-  "name": "staart.css",
-  "version": "1.0.1",
+  "name": "@staart/css",
+  "version": "1.0.2",
   "main": "dist/staart.css",
   "repository": "git@github.com:o15y/staart.css",
   "author": "Anand Chowdhary <mail@anandchowdhary.com>",
